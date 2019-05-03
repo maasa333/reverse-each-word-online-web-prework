@@ -9,9 +9,9 @@ end
 
 def collect_each_word(string)
   array = string.split(" ")
-  new_array = []
+  second_array = []
   array.collect do |w|
-    new_array << w.reverse
+    second_array << w.reverse
   end
-  new_array.join(" ")
+  second_array.join(" ")
 end
